@@ -15,7 +15,6 @@
     background-color: rgb(255, 255, 255);
     position: fixed;
     width: calc(100% - 40px);
-    /* Adjusted width considering 30px padding on both sides */
     color: rgb(0, 0, 0);
     font-size: 20px;
     padding: 20px;
@@ -177,7 +176,7 @@
 }
 
 .price{
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 200;
 }
 
@@ -192,4 +191,18 @@
 
 .section-5 {
     margin: 100px 0px;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .navibar {
+        display: none;
+        text-align: center;
+    }
+
+    .navibar ul{
+        display: none;
+    }
+
+    
 }
