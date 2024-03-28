@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+    /* border: 1px solid red; */
+}
+
+.navibar {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    width: calc(100% - 40px);
+    /* Adjusted width considering 30px padding on both sides */
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    padding: 20px;
+    z-index: 99;
+}
+
+.section-1 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-1 video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* Ensure video covers the entire area */
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* semi-transparent black overlay */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay-text {
+    color: white;
+    /* Text color */
+    font-size: 24px;
+    /* Adjust font size as needed */
+    text-align: center;
+    /* Add additional styles for text as needed */
+}
+
+.overlay-text h2 {
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.overlay-text p {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.section-2 {
+    max-height: 400px;
+}
+
+.section-2 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+
+.sec2-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 60%;
+    margin: 0 auto;
+}
+
+
+.sec2-text h2 {
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.sec2-text h4 {
+    font-size: 20px;
+    font-weight: 200;
+}
+
+
+.navibar ul {
+    display: flex;
+
+    gap: 30px;
+}
+
+.navibar li {
+    list-style: none;
+}
+
+.section-3 {
+    margin: 100px 0px;
+}
+
+.section-3 h2 {
+
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.section-3 p {
+    font-size: 15;
+    text-align: center;
+    font-weight: 200;
+    margin-bottom: 50px;
+}
+
+.sec4-text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.sec4-text i {
+    margin-bottom: 20px;
+    transform: scale(200%);
+}
+
+.card-horizontal {
+    display: flex;
+    flex-direction: row;
+}
+
+.img-square {
+    width: 300px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.img-square img {
+    border-radius: 10px;
+}
+
+.card-body {
+    margin-left: 20px;
+}
+
+.section-5 h2 {
+
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.section-5 p {
+    font-size: 15;
+    text-align: center;
+    font-weight: 200;
+    margin-bottom: 50px;
+}
+
+.price{
+    font-size: 40px;
+    font-weight: 200;
+}
+
+.card-title{
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.section-4 {
+    margin: 100px 0px;
+}
+
+.section-5 {
+    margin: 100px 0px;
+}
